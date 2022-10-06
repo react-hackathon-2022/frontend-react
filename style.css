@@ -1,17 +1,28 @@
-body {
-    position: relative;
+.pref-container {
+    position: absolute;
     width: 1440px;
     height: 1024px;
+    
     background: linear-gradient(242.13deg, #0A0011 20.65%, rgba(31, 7, 49, 0.63) 46.14%, #000000 99.56%);
     border-radius: 24px;
     }
 
+.main-frame{
+    position: absolute;
+    width: 1280px;
+    height: 844px;
+    left: 80px;
+    top: 90px;
+    
+    background: #CAA1FD;
+    border-radius: 16px;
+}
 .side-menu{
     position: absolute;
-    width: 320px;
+    width: 310px;
     height: 844px;
     left: 0px;
-    top: 0px;
+    top: 0px;    
 }
 
 .rec1{
@@ -21,7 +32,7 @@ body {
     left: 31px;
     top: 0px;
 
-background: rgba(0, 0, 0, 0.3);
+    background: rgba(0, 0, 0, 0.3);
 }
 
 .darkrec{
@@ -30,9 +41,8 @@ background: rgba(0, 0, 0, 0.3);
     height: 73px;
     left: 0px;
     top: 771px;
-
+    
     background: #1A1124;
-    box-shadow: 10px 10px 0px #F7F8FD;
 }
 
 .rec2{
@@ -41,21 +51,12 @@ background: rgba(0, 0, 0, 0.3);
     height: 844px;
     left: 0px;
     top: 0px;
-
-    background: rgba(4, 0, 9, 0.3);
-    backdrop-filter: blur(10px);
 }
 
-.logo{
-    position: absolute;
-    width: 76px;
-    height: 78px;
-    left: 0px;
-    top: 42px;
-}
 
-.catergory{
-    position: absolute;
+
+.category{
+    position: relative;
     width: 244px;
     height: 844px;
     left: 66px;
@@ -110,15 +111,9 @@ background: rgba(0, 0, 0, 0.3);
     background: rgba(0, 0, 0, 0.5);
     background-blend-mode: overlay;
     border-radius: 5px;
-    font-family: 'Jura';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 12px;
-    line-height: 14px;
-    text-decoration:none;
 }
 
-.userq{
+.image{
     position: absolute;
     width: 24px;
     height: 24px;
@@ -126,22 +121,7 @@ background: rgba(0, 0, 0, 0.3);
     top: 11px;
 }
 
-.faq{
-    position: absolute;
-    width: 31px;
-    height: 14px;
-    left: 53px;
-    top: 14px;
-    
-    font-family: 'Jura';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 12px;
-    line-height: 14px;
-    
-    color: #FFFFFF;
-    text-decoration: none;
-}
+
 
 .title{
     position: absolute;
@@ -294,3 +274,104 @@ background: rgba(0, 0, 0, 0.3);
     color: #FFFFFF;
 }
 
+.side-menu{
+    position: absolute;
+    width: 320px;
+    height: 844px;
+    left: 0px;
+    top: 0px;
+}
+
+.e1{
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    left: 12px;
+    top: 12px;
+}
+
+.e2{
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    left: 32px;
+    top: 12px;
+}
+
+.e3{
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    left: 52px;
+    top: 12px;   
+}
+
+.sizebar{
+    position: absolute;
+    width: 76px;
+    height: 844px;
+    left: 0px;
+    top: 0px;
+    
+    background: rgba(4, 0, 9, 0.3);
+    backdrop-filter: blur(10px);
+}
+
+.btn{
+    position: absolute;
+    width: 200px;
+    height: 14px;
+    left: 53px;
+    top: 14px;
+
+    color: #FFFFFF;
+    font-family: 'Verdana';
+}
+
+.add-info{
+    position: absolute;
+    width: 244px;
+    height: 44px;
+    left: 0px;
+    top: 0px;
+    
+    background: rgba(255, 255, 255, 0.001);
+    box-shadow: inset -1px 4px 4px rgba(255, 255, 255, 0.1);
+}
+
+.add{
+    position: absolute;
+    width: 184px;
+    height: 16px;
+    left: 47px;
+    top: 19px;
+    
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    /* identical to box height */
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+.line  {
+    position: absolute;
+    width: 208px;
+    height: 0px;
+    left: 36px;
+    top: 44px;
+    
+    background: #D2CDD7;
+    border: 1px solid #392467;
+}
+
+.logo{
+    position: absolute;
+    width: 76px;
+    height: 78px;
+    left: 0px;
+    top: 42px;
+}

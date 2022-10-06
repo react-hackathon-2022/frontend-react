@@ -23,7 +23,7 @@ border-radius: 16px;
 /* side menu */
 
 position: absolute;
-width: 320px;
+width: 310px;
 height: 844px;
 left: 0px;
 top: 0px;
@@ -534,7 +534,7 @@ background: rgba(0, 0, 0, 0.3);
 /* Black and White Collection 3 */
 
 position: absolute;
-width: 76px;
+width: 73.62px;
 height: 78px;
 left: 0px;
 top: 42px;
@@ -790,7 +790,7 @@ height: 44px;
 left: calc(50% - 44px/2 - 81px);
 top: calc(50% - 44px/2);
 
-background: url(blank-profile-picture-973460_1280);
+background: url(blank-profile-picture-973460_1280.png);
 border: 1px solid #FFFFFF;
 border-radius: 12px;
 
@@ -856,7 +856,7 @@ height: 44px;
 left: calc(50% - 44px/2 - 81px);
 top: calc(50% - 44px/2);
 
-background: url(blank-profile-picture-973460_1280);
+background: url(blank-profile-picture-973460_1280.png);
 border: 1px solid #FFFFFF;
 border-radius: 12px;
 
